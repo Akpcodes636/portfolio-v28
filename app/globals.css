@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base colors */
+    --background: 240 24% 12%; /* Dark background */
+    --foreground: 210 15% 85%; /* Light gray text */
+
+    /* Primary - Dark Pink */
+    --primary: 335 70% 50%; /* Darker Pink */
+    --primary-foreground: 0 0% 100%; /* White */
+
+    /* Secondary - Darker Blue */
+    --secondary: 220 40% 40%; /* Deep Dark Blue */
+    --secondary-foreground: 0 0% 100%; /* White */
+
+    /* Accent - Dark Blue */
+    --accent: 220 50% 30%; /* Darker Navy Blue */
+    --accent-foreground: 0 0% 100%; /* White */
+
+    /* Other UI elements */
+    --card: 240 24% 15%; /* Dark card background */
+    --card-foreground: 210 15% 85%;
+    --popover: 240 24% 15%;
+    --popover-foreground: 210 15% 85%;
+    --muted: 240 24% 20%;
+    --muted-foreground: 210 15% 65%;
+    --destructive: 0 60% 40%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 24% 25%;
+    --input: 240 24% 25%;
+    --ring: 335 70% 50%;
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: hsl(335, 70%, 50%), hsl(220, 40%, 40%),
+      hsl(220, 50%, 30%);
+    --gradient-secondary: hsl(240, 24%, 15%), hsl(220, 50%, 30%);
+  }
+
+  .dark {
+    --background: 240 24% 10%; /* Even darker background */
+    --foreground: 0 0% 100%;
+    --card: 240 24% 12%;
+    --card-foreground: 0 0% 100%;
+    --popover: 240 24% 12%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 335 70% 50%; /* Darker Pink */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 40% 40%; /* Deep Dark Blue */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 24% 18%;
+    --muted-foreground: 210 15% 75%;
+    --accent: 220 50% 30%; /* Darker Navy Blue */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 50% 30%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 24% 20%;
+    --input: 240 24% 20%;
+    --ring: 335 70% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply size-full scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground size-full overflow-hidden;
+  }
+  .text-gradient-primary {
+    @apply bg-gradient-primary text-transparent bg-clip-text;
+  }
+  .text-gradient-secondary {
+    @apply bg-gradient-secondary text-transparent bg-clip-text;
+  }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
