@@ -88,7 +88,7 @@ export default function AboutSection() {
             If you need a frontend developer to **build, optimize, or enhance** your web application, let&apos;s connect!  
             <br /><br />
             <a href="#contact" className="text-primary hover:underline font-semibold">
-              👉 Let’s Talk – Contact Me Here
+              👉 Let&apos;s Talk – Contact Me Here
             </a>
           </motion.p>
         </div>
