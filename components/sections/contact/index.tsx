@@ -72,7 +72,7 @@ export default function ContactMe() {
     { code: "    name: 'Ewherhe Akpesiri',", type: "array-item" },
     { code: "    role: 'Frontend Developer',", type: "array-item" },
     { code: "    email: 'your.email@example.com',", type: "array-item" },
-    { code: "    message: 'Let’s build something amazing!';", type: "array-item" },
+    { code: "    message: 'Let&apos;s build something amazing!';", type: "array-item" },
     { code: "  };", type: "array-end" },
     { code: "", type: "blank" },
     { code: "  return (", type: "return-object" },
@@ -101,8 +101,8 @@ export default function ContactMe() {
     <div className="bg-[hsl(var(--background))] text-[hsl(var(--foreground))] p-6 rounded-[var(--radius)] border border-[hsl(var(--border))] shadow-md">
       <div className="flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="w-full md:w-1/2">
-          <h2 className="text-2xl font-bold text-[hsl(var(--primary))]">Let's Work Together!</h2>
-          <p className="text-[hsl(var(--muted-foreground))] mt-2">Have an exciting project? Let’s connect and build something amazing!</p>
+          <h2 className="text-2xl font-bold text-[hsl(var(--primary))]">Let&apos;s Work Together!</h2>
+          <p className="text-[hsl(var(--muted-foreground))] mt-2">Have an exciting project? Let&apos;s connect and build something amazing!</p>
           <div className="mt-4">
             <Link href="mailto:your.email@example.com" className="inline-flex items-center gap-2 px-4 py-2 text-[hsl(var(--primary-foreground))] bg-[hsl(var(--primary))] rounded-md hover:bg-opacity-80 transition">
               Contact Me <VscMail />
