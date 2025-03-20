@@ -81,7 +81,7 @@ export default function AboutSection() {
               <li>⚡ **I work fast & efficiently** – Getting things done without unnecessary delays.</li>
             </ul>
 
-            <br />
+            <br />  
 
             <span className="font-semibold">📌 Let&apos;s Create Something Amazing! 🚀</span>
             <br />

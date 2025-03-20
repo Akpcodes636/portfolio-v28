@@ -71,7 +71,7 @@ export default function ContactMe() {
     { code: "  const contactInfo = {", type: "variable" },
     { code: "    name: 'Ewherhe Akpesiri',", type: "array-item" },
     { code: "    role: 'Frontend Developer',", type: "array-item" },
-    { code: "    email: 'your.email@example.com',", type: "array-item" },
+    { code: "    email: 'ewherheakpesiri@gmail.com,", type: "array-item" },
     { code: "    message: 'Let&apos;s build something amazing!';", type: "array-item" },
     { code: "  };", type: "array-end" },
     { code: "", type: "blank" },
