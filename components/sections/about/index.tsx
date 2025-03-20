@@ -108,11 +108,11 @@ export default function AboutSection() {
             </ul>
             <br />
             <span className="font-semibold">
-              📌 Let&#39;s Create Something Amazing! 🚀
+              📌 Bring Your Ideas to Life! 🚀
             </span>
             <br />
-            If you need a frontend developer to **build, optimize, or enhance**
-            your web application, let&#39;s connect!
+            Looking for a frontend developer to **build, improve, or refine**
+            your web application? We can collaborate!
             <br />
             <br />
             <a
