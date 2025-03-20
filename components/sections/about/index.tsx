@@ -59,36 +59,67 @@ export default function AboutSection() {
             transition={{ delay: 0.7, ease: "easeIn", duration: 0.5 }}
             className="text-muted-foreground text-center sm:text-center md:text-start lg:text-start"
           >
-            Hey, I&#39;m <strong>Ewherhe Akpesiri</strong>, a passionate **Frontend Developer** who loves building digital experiences that feel smooth, intuitive, and engaging.  
-            <br /><br />
-            From designing **visually stunning user interfaces** to optimizing performance under the hood, I thrive on solving real-world problems through **clean, scalable, and efficient code**. Whether it&#39;s **React, Next.js, or Tailwind CSS**, I bring ideas to life with a keen eye for detail and a touch of creativity.
-            <br /><br />
-            
+            Hey, I am <strong>Ewherhe Akpesiri</strong>, a passionate **Frontend
+            Developer** who loves building digital experiences that feel smooth,
+            intuitive, and engaging.
+            <br />
+            <br />
+            From designing **visually stunning user interfaces** to optimizing
+            performance under the hood, I thrive on solving real-world problems
+            through **clean, scalable, and efficient code**. Whether working
+            with **React, Next.js, or Tailwind CSS**, I bring ideas to life with
+            a keen eye for detail and a touch of creativity.
+            <br />
+            <br />
             <span className="font-semibold">📌 My Superpowers:</span>
             <ul className="list-disc pl-5">
-              <li>✨ **Building Scalable Web Apps** – High-performance **React & Next.js** applications.</li>
-              <li>🚀 **Performance Optimization** – Speeding up load times and ensuring **SEO-friendly** websites.</li>
-              <li>🔍 **Debugging & Problem Solving** – Fixing UI bugs, API issues, and tricky layout problems.</li>
-              <li>🧠 **Creative UI & UX Design** – Making interfaces **clean, responsive, and user-friendly**.</li>
+              <li>
+                ✨ **Building Scalable Web Apps** – High-performance **React &
+                Next.js** applications.
+              </li>
+              <li>
+                🚀 **Performance Optimization** – Speeding up load times and
+                ensuring **SEO-friendly** websites.
+              </li>
+              <li>
+                🔍 **Debugging & Problem Solving** – Fixing UI bugs, API issues,
+                and tricky layout problems.
+              </li>
+              <li>
+                🧠 **Creative UI & UX Design** – Making interfaces **clean,
+                responsive, and user-friendly**.
+              </li>
             </ul>
-
             <br />
-
             <span className="font-semibold">📌 Why Work With Me?</span>
             <ul className="list-disc pl-5">
-              <li>⚡ **I focus on user experience** – A website should be **fast, accessible, and engaging**.</li>
-              <li>⚡ **I write clean, maintainable code** – No messy workarounds, just scalable solutions.</li>
-              <li>⚡ **I work fast & efficiently** – Getting things done without unnecessary delays.</li>
+              <li>
+                ⚡ **I focus on user experience** – A website should be **fast,
+                accessible, and engaging**.
+              </li>
+              <li>
+                ⚡ **I write clean, maintainable code** – No messy workarounds,
+                just scalable solutions.
+              </li>
+              <li>
+                ⚡ **I work fast & efficiently** – Getting things done without
+                unnecessary delays.
+              </li>
             </ul>
-
-            <br />  
-
-            <span className="font-semibold">📌 Let&#39;s Create Something Amazing! 🚀</span>
             <br />
-            If you need a frontend developer to **build, optimize, or enhance** your web application, let&#39;s connect!  
-            <br /><br />
-            <a href="#contact" className="text-primary hover:underline font-semibold">
-              👉 Let&#39;s Talk – Contact Me Here
+            <span className="font-semibold">
+              📌 Let&#39;s Create Something Amazing! 🚀
+            </span>
+            <br />
+            If you need a frontend developer to **build, optimize, or enhance**
+            your web application, let&#39;s connect!
+            <br />
+            <br />
+            <a
+              href="#contact"
+              className="text-primary hover:underline font-semibold"
+            >
+              👉 Send Me a Message
             </a>
           </motion.p>
         </div>

@@ -101,8 +101,8 @@ export default function ContactMe() {
     <div className="bg-[hsl(var(--background))] text-[hsl(var(--foreground))] p-6 rounded-[var(--radius)] border border-[hsl(var(--border))] shadow-md">
       <div className="flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="w-full md:w-1/2">
-          <h2 className="text-2xl font-bold text-[hsl(var(--primary))]">Let&#39;s Work Together!</h2>
-          <p className="text-[hsl(var(--muted-foreground))] mt-2">Have an exciting project? Let&#39;s connect and build something amazing!</p>
+        <h2 className="text-2xl font-bold text-[hsl(var(--primary))]">Work With Me!</h2>
+        <p className="text-[hsl(var(--muted-foreground))] mt-2">Have an exciting project? Connect with me and build something amazing!</p>
           <div className="mt-4">
             <Link href="mailto:your.email@example.com" className="inline-flex items-center gap-2 px-4 py-2 text-[hsl(var(--primary-foreground))] bg-[hsl(var(--primary))] rounded-md hover:bg-opacity-80 transition">
               Contact Me <VscMail />
