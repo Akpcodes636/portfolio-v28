@@ -59,9 +59,9 @@ export default function AboutSection() {
             transition={{ delay: 0.7, ease: "easeIn", duration: 0.5 }}
             className="text-muted-foreground text-center sm:text-center md:text-start lg:text-start"
           >
-            Hey, I&apos;m <strong>Ewherhe Akpesiri</strong>, a passionate **Frontend Developer** who loves building digital experiences that feel smooth, intuitive, and engaging.  
+            Hey, I&#39;m <strong>Ewherhe Akpesiri</strong>, a passionate **Frontend Developer** who loves building digital experiences that feel smooth, intuitive, and engaging.  
             <br /><br />
-            From designing **visually stunning user interfaces** to optimizing performance under the hood, I thrive on solving real-world problems through **clean, scalable, and efficient code**. Whether it&apos;s **React, Next.js, or Tailwind CSS**, I bring ideas to life with a keen eye for detail and a touch of creativity.
+            From designing **visually stunning user interfaces** to optimizing performance under the hood, I thrive on solving real-world problems through **clean, scalable, and efficient code**. Whether it&#39;s **React, Next.js, or Tailwind CSS**, I bring ideas to life with a keen eye for detail and a touch of creativity.
             <br /><br />
             
             <span className="font-semibold">📌 My Superpowers:</span>
@@ -83,12 +83,12 @@ export default function AboutSection() {
 
             <br />  
 
-            <span className="font-semibold">📌 Let&apos;s Create Something Amazing! 🚀</span>
+            <span className="font-semibold">📌 Let&#39;s Create Something Amazing! 🚀</span>
             <br />
-            If you need a frontend developer to **build, optimize, or enhance** your web application, let&apos;s connect!  
+            If you need a frontend developer to **build, optimize, or enhance** your web application, let&#39;s connect!  
             <br /><br />
             <a href="#contact" className="text-primary hover:underline font-semibold">
-              👉 Let&apos;s Talk – Contact Me Here
+              👉 Let&#39;s Talk – Contact Me Here
             </a>
           </motion.p>
         </div>
