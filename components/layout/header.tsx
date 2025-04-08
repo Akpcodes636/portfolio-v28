@@ -38,13 +38,14 @@ export default function Header() {
   return (
     <div className="w-full h-12 border-b bg-muted flex items-center">
       <div className="w-14 flex items-center justify-center flex-shrink-0 font-bold">
-        <Image
+        {/* <Image
           src="/imgs/logo.png" // Update this path to match your logo's location in the public folder
-          alt="AK Logo"
+          alt="AKP Logo"
           width={24}
           height={24}
           className="object-contain"
-        />
+        /> */}
+        <h2>Akp</h2>
       </div>
       <div className="flex items-center size-full">
         {navItems.map((item) => {
